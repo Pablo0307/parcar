@@ -14,8 +14,8 @@ public class EntradaBlogPMR {
 		
 		public static char separador=':';
 		private int id;
-		private String texto;
-		private String autor;
+		private String texto = "Últimas noticias, está disponible BixBy 2.0";
+		private String autor = "Pablo Martínez Ruiz";
 		public EntradaBlogPMR(int i, String string, String string2) {
 		// TODO Auto-generated constructor stub
 		}
@@ -73,7 +73,7 @@ public class EntradaBlogPMR {
 		 */
 		public static void main(String[] args) {
 	            
-			EntradaBlogPMR e1 = new EntradaBlogPMR (-3,"TU_NOMBRE","Últimas noticias, está disponible BixBy 2.0");
+			EntradaBlogPMR e1 = new EntradaBlogPMR (3,"Pablo Martínez Ruiz","Últimas noticias, está disponible BixBy 2.0");
 			System.out.println(e1);
 		}
 }
